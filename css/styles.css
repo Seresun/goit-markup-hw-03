@@ -67,6 +67,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
   }
   .blacklogo {
     color:#2E2F42;
@@ -87,8 +89,6 @@ body {
     letter-spacing: 0.02em;
     color:#2E2F42;
     list-style: none;
-    display: flex;
-    gap: 40px;
   }
   .info {
     font-weight: 500;
@@ -96,7 +96,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
-    padding: 24px 0 ;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px;
 
   }
   .list-info:hover {
@@ -199,6 +201,10 @@ body {
   }
   .list-names {
     background-color: #FFFFFF;
+  }
+
+  .section_four {
+    padding-top: 120px;
   }
 
   .apps-list {
