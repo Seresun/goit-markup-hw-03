@@ -93,6 +93,7 @@ body {
     letter-spacing: 0.02em;
     color:#2E2F42;
     list-style: none;
+    padding: 24px 0 24px;
   }
   .info {
     font-weight: 500;
@@ -167,7 +168,7 @@ body {
     padding: 120px 0;
   }
 
-  .names {
+  .naming {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -182,8 +183,11 @@ body {
     color: #434455;
   }
   
+  /* THIRD SECTION */
+
   .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0 120px;
   }
   
   .title-info {
@@ -199,13 +203,38 @@ body {
   .list-headname {
     line-height: 1.11;
     display: flex;
-    flex-wrap: wrap; 
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 24px;
   }
+
   .list-names {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
   }
+
+  .name-position {
+    padding: 32px 0;
+  }
+
+ .names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+  }
+
+  .work-position {
+  color:#434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  }
+
+
+  /* FORTH SECTION */
 
   .section_four {
     padding-top: 120px;
@@ -215,12 +244,6 @@ body {
     width: calc((100% - 48px) / 3);  
   }
   
-  .work-position {
-  color:#434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  }
   
   .name-of-service {
     color:#2E2F42;
