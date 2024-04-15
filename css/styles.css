@@ -270,7 +270,7 @@ body {
   .list-app-headname {
     line-height: 1.11;
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px; 
   }
@@ -319,7 +319,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
-    display: inline-block;
+    display:inline-block;
     margin-bottom: 16px;
   }
 
